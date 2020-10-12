@@ -1,0 +1,104 @@
+ * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    /* https://cssgradient.io/ */
+    background: rgb(31,60,136);
+    background: linear-gradient(66deg, rgba(31,60,136,1) 45%, rgba(238,111,87,1) 100%);
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  .calculator {
+    margin: 25px auto;
+    width: 368px;
+    height: 624px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3);
+    background: #eee;
+    border-radius: 5px;
+  }
+  
+  .header {
+    height: 100px;
+    padding-top: 37px;
+    padding-bottom: 27px;
+    padding-right: 29px;
+    padding-left: 29px;
+    background-color: #212022;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: right;
+  }
+  .input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ee6f57;
+    font-size: 18px;
+    text-align: right;
+  }
+
+  .output {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 60px;
+    text-align: right;
+  }
+
+  .keyboard {
+    height: 500px;
+    display: table;
+  }
+
+  .btn {
+    width: 92px;
+    height: 92px;
+    padding: 39px;
+    border: none;
+    color: #212121;
+    font-size: 22px;
+  }
+
+  .btn:nth-child(17) {
+    border-radius: 0 0 0 5px;
+  }
+
+  .btn-big {
+    position: absolute;
+    width: 184px;
+    height: 92px;
+    padding: 39px;
+    font-size: 22px;
+    background-color: #070d59;
+    border: none;
+    color: #f6f5f5;
+    border-radius: 0 0 5px 0;
+  }
+  
+  .btn-special {
+    background-color: #1f3c88;
+    font-size: 22px;
+
+  }
+  
+  .btn.btn-special {
+    color: #f6f5f5;
+  }
+  
+  .btn:hover {
+    background-color: #ccc;
+  }
+  
+  .btn.btn-special:hover {
+    background-color: #182f69;
+  }
+
+  .btn-big:hover {
+    background-color: #ee6f57;
+  }
