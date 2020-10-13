@@ -11,7 +11,7 @@ function result() { // функқия для расчета результато
     try {
         if (isNaN(eval(inputCalc.value))) {
             reset();
-            resultCalc.value = 'на ноль делить нельзя';
+            resultCalc.value = 'На ноль делить нельзя';
             resultCalc.style.fontSize = "1.8em";
             return;
         }
@@ -19,7 +19,7 @@ function result() { // функқия для расчета результато
             return;
         }
         if(eval(inputCalc.value) == Infinity) { // проверка деление на ноль
-            resultCalc.value = 'на ноль делить нельзя';
+            resultCalc.value = 'На ноль делить нельзя';
             resultCalc.style.fontSize = "1.8em";
             return;
         }
