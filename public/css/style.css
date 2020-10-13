@@ -12,7 +12,7 @@
   }
   
   .calculator {
-    margin: 25px auto;
+    margin: 25px auto 0 auto;
     width: 368px;
     height: 624px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3);

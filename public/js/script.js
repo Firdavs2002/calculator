@@ -7,7 +7,7 @@ function input(i) {
 
 function result() { // функқия для расчета результатов
     resultCalc.style.fontSize = "60px";
-    
+
     try {
         if(eval(inputCalc.value) == undefined) { // проверка на пустату при расчете результатов
             return;
@@ -17,7 +17,7 @@ function result() { // функқия для расчета результато
             resultCalc.style.fontSize = "1.8em";
             return;
         }
-        resultCalc.value = eval(inputCalc.value);
+        resultCalc.value = eval(inputCalc.value).toFixed(2);
     }
     catch {
         resultCalc.value = "Ошибка";
