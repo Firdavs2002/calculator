@@ -4,7 +4,7 @@
   }
   
   body {
-    /* https://cssgradient.io/ */
+    /* фон сгенерировал из https://cssgradient.io/ */
     background: rgb(31,60,136);
     background: linear-gradient(66deg, rgba(31,60,136,1) 45%, rgba(238,111,87,1) 100%);
     overflow: hidden;
@@ -21,6 +21,9 @@
   }
   
   .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100px;
     padding-top: 37px;
     padding-bottom: 27px;
